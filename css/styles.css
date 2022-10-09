@@ -55,12 +55,11 @@ img {
 /* Класи за замовчуванням */
 
 .container {
-  width: 1170px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 
 .list {
