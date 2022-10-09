@@ -245,13 +245,60 @@ img {
   color: var(--secondary-color);
 }
 
+/* Чим ми займаємось */
+
+.projects-title {
+  margin-bottom: 50px;
+}
+
+.projects-list-img {
+  display: flex;
+}
+
+.projects-list-img .projects-item + .projects-item {
+  margin-left: 30px;
+}
+
+.projects-item {
+  margin-bottom: 94px;
+}
+
 /* Наша команда */
 
 .command {
   background-color: #f5f4fa;
 }
 
+.command-title {
+  padding-top: 94px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.command-item {
+  background-color: var(--background-color);
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.command-list .command-item + .command-item {
+  margin-left: 30px;
+}
+
+.command-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.command-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+
 .command-people {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -261,6 +308,7 @@ img {
 }
 
 .command-position {
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -273,16 +321,31 @@ img {
   background-color: #2f303a;
 }
 
+.logo-footer {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.basement-link {
+  width: 231px;
+}
+
 .basement-logo {
   letter-spacing: 0.03em;
   color: var(--background-color);
 }
 
 .link-google {
+  padding-bottom: 10px;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color);
+}
+
+.adress-list {
+  padding-bottom: 10px;
 }
 
 .basement-contacts {
@@ -290,6 +353,10 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.basement-tel {
+  padding-bottom: 30px;
 }
 
 /* Portfolio.html */

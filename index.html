@@ -110,8 +110,8 @@
       <section class="projects">
         <div class="container">
           <h2 class="projects-title section-title">Чим ми займаємося</h2>
-          <ul class="projects-list list">
-            <li>
+          <ul class="projects-list-img list">
+            <li class="projects-item">
               <img
                 class="projects-picture"
                 src="./images/web-about-1-min.jpg"
@@ -120,7 +120,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 class="projects-picture"
                 src="./images/web-about-2-min.jpg"
@@ -129,7 +129,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 class="projects-picture"
                 src="./images/web-about-3-min.jpg"
@@ -146,7 +146,7 @@
         <div class="container">
           <h2 class="command-title section-title">Наша команда</h2>
           <ul class="command-list list">
-            <li>
+            <li class="command-item">
               <img
                 class="command-picture"
                 src="./images/developer-1-min.jpg"
@@ -154,10 +154,12 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-people">Ігор Дем'яненко</h3>
-              <p lang="en" class="command-position">Product Designer</p>
+              <div class="command-container">
+                <h3 class="command-people">Ігор Дем'яненко</h3>
+                <p lang="en" class="command-position">Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="command-item">
               <img
                 class="command-picture"
                 src="./images/developer-2-min.jpg"
@@ -165,10 +167,12 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-people">Ольга Рєпіна</h3>
-              <p lang="en" class="command-position">Frontend Developer</p>
+              <div class="command-container">
+                <h3 class="command-people">Ольга Рєпіна</h3>
+                <p lang="en" class="command-position">Frontend Developer</p>
+              </div>
             </li>
-            <li>
+            <li class="command-item">
               <img
                 class="command-picture"
                 src="./images/developer-3-min.jpg"
@@ -176,10 +180,12 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-people">Микола Тарасов</h3>
-              <p lang="en" class="command-position">Marketing</p>
+              <div class="command-container">
+                <h3 class="command-people">Микола Тарасов</h3>
+                <p lang="en" class="command-position">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="command-item">
               <img
                 class="command-picture"
                 src="./images/developer-4-min.jpg"
@@ -187,8 +193,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-people">Михайло Єрмаков</h3>
-              <p lang="en" class="command-position">UI Designer</p>
+              <div class="command-container">
+                <h3 class="command-people">Михайло Єрмаков</h3>
+                <p lang="en" class="command-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -197,11 +205,13 @@
     <!-- Підвал сайту -->
     <footer class="basement">
       <div class="container">
-        <a href="./index.html" class="basement-logo link section-logo">
-          <span class="logo-style section-logo">Web</span>Studio</a
-        >
+        <div class="logo-footer">
+          <a href="./index.html" class="basement-logo link section-logo">
+            <span class="logo-style section-logo">Web</span>Studio</a
+          >
+        </div>
         <address class="basement-link">
-          <ul>
+          <ul class="basement-list">
             <li class="adress-list list">
               <a
                 href="https://goo.gl/maps/1rtwzUmeMSf6ApTMA"
@@ -216,10 +226,12 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li class="adress-list list">
-              <a href="tel:+380961111111" class="basement-contacts link"
-                >+38 096 111 11 11</a
-              >
+            <div class="basement-tel">
+              <li class="adress-list list">
+                <a href="tel:+380961111111" class="basement-contacts link"
+                  >+38 096 111 11 11</a
+                >
+            </div>
             </li>
           </ul>
         </address>
