@@ -70,6 +70,11 @@ img {
   text-decoration: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title {
   font-size: 36px;
   line-height: 1.16;
@@ -210,14 +215,17 @@ img {
   align-items: center;
   letter-spacing: 0.06em;
   color: var(--background-color);
+  border: none;
 }
 
 /* Переваги */
 
+.advantages {
+  padding-bottom: 0;
+}
+
 .advantages-list {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .advantages-item {
@@ -259,7 +267,6 @@ img {
 }
 
 .projects-item {
-  margin-bottom: 94px;
 }
 
 /* Наша команда */
@@ -269,8 +276,7 @@ img {
 }
 
 .command-title {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -293,7 +299,6 @@ img {
 
 .command-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .command-people {
@@ -307,7 +312,6 @@ img {
 }
 
 .command-position {
-  margin-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -322,12 +326,10 @@ img {
 
 .logo-footer {
   display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .basement-link {
-  width: 231px;
 }
 
 .basement-logo {
@@ -336,15 +338,18 @@ img {
 }
 
 .link-google {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color);
 }
 
+.basement-list .adress-list + .adress-list {
+  margin-top: 10px;
+}
+
 .adress-list {
-  padding-bottom: 10px;
 }
 
 .basement-contacts {
@@ -355,7 +360,6 @@ img {
 }
 
 .basement-tel {
-  padding-bottom: 30px;
 }
 
 /* Portfolio.html */
@@ -365,16 +369,14 @@ img {
 }
 
 .projects-company {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: #eeeeee;
+  background-color: var(--background-color);
 }
 
 .projects-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 34px;
+  padding-bottom: 50px;
 
   font-weight: 500;
   font-size: 16px;
@@ -410,6 +412,7 @@ img {
 .team-work {
   margin-right: 30px;
   margin-bottom: 30px;
+  border: none;
 }
 
 .team-work:nth-child(3n) {
